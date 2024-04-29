@@ -1,3 +1,6 @@
+import "@fontsource/roboto-mono/400.css";
+import "@fontsource/roboto-mono/600.css";
+import "@fontsource/caveat/700.css";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
 import { Inter } from "next/font/google";
 

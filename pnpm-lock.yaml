@@ -8,6 +8,12 @@ dependencies:
   '@emotion/cache':
     specifier: ^11.11.0
     version: 11.11.0
+  '@fontsource/caveat':
+    specifier: ^5.0.18
+    version: 5.0.18
+  '@fontsource/roboto-mono':
+    specifier: ^5.0.18
+    version: 5.0.18
   '@mui/material-nextjs':
     specifier: ^5.15.11
     version: 5.15.11(@emotion/cache@11.11.0)(@mui/material@5.15.15)(@types/react@18.3.1)(next@14.2.3)(react@18.2.0)
@@ -1841,6 +1847,14 @@ packages:
 
   /@floating-ui/utils@0.2.2:
     resolution: {integrity: sha512-J4yDIIthosAsRZ5CPYP/jQvUAQtlZTTD/4suA08/FEnlxqW3sKS9iAhgsa9VYLZ6vDHn/ixJgIqRQPotoBjxIw==}
+    dev: false
+
+  /@fontsource/caveat@5.0.18:
+    resolution: {integrity: sha512-zZOXWXJJTgzTnelnf0YKOCKCR5RQ8M5deP0OecToGJ2Z5MuqaMpASO2UtBBmc79R186LgRN73iQESRlcBHdONw==}
+    dev: false
+
+  /@fontsource/roboto-mono@5.0.18:
+    resolution: {integrity: sha512-hKuwk/cy3i6fWPzazT5xjgWq4YNqZWDHVbJh2Wwj3KYvWGi2v3ToBw/4LKQ+ggEkPLcIG6VU8GpCT3Xtf+mbbA==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
