@@ -3,12 +3,15 @@ import { grey } from "@mui/material/colors";
 
 declare module "@mui/material/styles" {
   interface PaletteColor {
+    buttonText: string;
     highlight: string;
     bg: string;
     border: string;
     heading: string;
+    headingBg: string;
   }
   interface SimplePaletteColorOptions {
+    buttonText?: string;
     highlight?: string;
     bg?: string;
     border?: string;
@@ -17,6 +20,7 @@ declare module "@mui/material/styles" {
   }
   interface Palette {
     unselected: PaletteColor;
+    selected: PaletteColor;
     met: PaletteColor;
     unmet: PaletteColor;
     needs: PaletteColor;
@@ -24,6 +28,7 @@ declare module "@mui/material/styles" {
   }
   interface PaletteOptions {
     unselected?: SimplePaletteColorOptions;
+    selected?: SimplePaletteColorOptions;
     met?: SimplePaletteColorOptions;
     unmet?: SimplePaletteColorOptions;
     needs?: SimplePaletteColorOptions;
@@ -33,8 +38,10 @@ declare module "@mui/material/styles" {
 
 const palette: PaletteOptions = {
   unselected: {
-    main: grey[400],
-    heading: grey[600],
+    main: grey[600],
+  },
+  selected: {
+    main: "#000000",
   },
   met: {
     bg: "#C6F6D5",
