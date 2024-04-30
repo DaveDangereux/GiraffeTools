@@ -1,8 +1,8 @@
-import WordButtonComponent from "./WordButton";
-import type { Meta, StoryObj } from "@storybook/react";
 import { Box } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
+import type { Meta, StoryObj } from "@storybook/react";
 import themes from "../../themes";
+import WordButtonComponent from "./WordButton";
 
 export default {
   title: "Giraffe Tools/Atoms/Word Button",
@@ -11,7 +11,7 @@ export default {
 
 type Story = StoryObj<typeof WordButtonComponent>;
 
-export const WordButton: Story = {
+export const Light: Story = {
   render: () => {
     return (
       <>
@@ -27,23 +27,32 @@ export const WordButton: Story = {
             <WordButtonComponent
               word="word"
               mode="unselected"
-              modes={["unselected", "met", "unmet"]}
+              modeOptions={["unselected", "met", "unmet"]}
               setButtonStatus={null}
             />
             <WordButtonComponent
               word="word"
               mode="met"
-              modes={["unselected", "met", "unmet"]}
+              modeOptions={["unselected", "met", "unmet"]}
               setButtonStatus={null}
             />
             <WordButtonComponent
               word="word"
               mode="unmet"
-              modes={["unselected", "met", "unmet"]}
+              modeOptions={["unselected", "met", "unmet"]}
               setButtonStatus={null}
             />
           </Box>
         </ThemeProvider>
+      </>
+    );
+  },
+};
+
+export const Dark: Story = {
+  render: () => {
+    return (
+      <>
         <ThemeProvider theme={themes.darkTheme}>
           <Box
             sx={{
@@ -56,19 +65,19 @@ export const WordButton: Story = {
             <WordButtonComponent
               word="word"
               mode="unselected"
-              modes={["unselected", "met", "unmet"]}
+              modeOptions={["unselected", "met", "unmet"]}
               setButtonStatus={null}
             />
             <WordButtonComponent
               word="word"
               mode="met"
-              modes={["unselected", "met", "unmet"]}
+              modeOptions={["unselected", "met", "unmet"]}
               setButtonStatus={null}
             />
             <WordButtonComponent
               word="word"
               mode="unmet"
-              modes={["unselected", "met", "unmet"]}
+              modeOptions={["unselected", "met", "unmet"]}
               setButtonStatus={null}
             />
           </Box>

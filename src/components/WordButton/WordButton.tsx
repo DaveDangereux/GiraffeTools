@@ -1,8 +1,6 @@
-import { useState, useEffect, memo } from "react";
 import { Button } from "@mui/material";
-import type { SetButtonStatusFunction } from "../../types";
-
-type Mode = "unselected" | "met" | "unmet";
+import { memo, useEffect, useState } from "react";
+import type { Mode, SetButtonStatusFunction, View } from "../../types";
 
 interface Props {
   sectionIndex?: number;
@@ -10,8 +8,8 @@ interface Props {
   wordButtonIndex?: number;
   word: string;
   mode: Mode;
-  view?: string;
-  modes: string[];
+  view?: View;
+  modeOptions: Mode[];
   setButtonStatus: SetButtonStatusFunction | null;
 }
 
@@ -22,7 +20,7 @@ const WordButton: React.FC<Props> = ({
   word,
   mode,
   view = "all",
-  modes,
+  modeOptions,
   setButtonStatus,
 }) => {
   const [modeState, setModeState] = useState<Mode>(mode);
@@ -30,19 +28,18 @@ const WordButton: React.FC<Props> = ({
   useEffect(() => setModeState(mode), [mode]);
 
   const onClick = () => {
-    const nextMode = modes[
-      (modes.indexOf(modeState) + 1) % modes.length
-    ] as Mode;
-    const newStatus = view !== "all" ? "unselected" : nextMode;
+    const nextMode: Mode =
+      modeOptions[(modeOptions.indexOf(modeState) + 1) % modeOptions.length]!;
+    const newMode: Mode = view !== "all" ? "unselected" : nextMode;
 
     // For testing interactivity in Storybook, this button can fall back
     // to internal state if it has not been passed a callback to set
     // parent state. This is slightly annoying and if a better way presents
     // itself, this will be eagerly updated.
     if (setButtonStatus) {
-      setButtonStatus({ sectionIndex, cardIndex, wordButtonIndex, newStatus });
+      setButtonStatus({ sectionIndex, cardIndex, wordButtonIndex, newMode });
     } else {
-      setModeState(newStatus);
+      setModeState(newMode);
     }
   };
 

@@ -1,11 +1,3 @@
-export type SetButtonStatusFunction = ({
-  sectionIndex,
-  cardIndex,
-  wordButtonIndex,
-  newStatus,
-}: {
-  sectionIndex: number;
-  cardIndex: number;
-  wordButtonIndex: number;
-  newStatus: string;
-}) => void;
+export type { Mode } from "./Mode";
+export type { SetButtonStatusFunction } from "./SetButtonStatusFunction";
+export type { View } from "./View";
