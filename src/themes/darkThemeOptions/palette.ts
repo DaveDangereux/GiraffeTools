@@ -1,43 +1,15 @@
 import type { PaletteOptions } from "@mui/material/styles/createPalette";
 import { grey } from "@mui/material/colors";
 
-declare module "@mui/material/styles" {
-  interface PaletteColor {
-    highlight: string;
-    bg: string;
-    border: string;
-    heading: string;
-    headingBg: string;
-  }
-  interface SimplePaletteColorOptions {
-    highlight?: string;
-    bg?: string;
-    border?: string;
-    heading?: string;
-    headingBg?: string;
-  }
-  interface Palette {
-    unselected: PaletteColor;
-    met: PaletteColor;
-    unmet: PaletteColor;
-    needs: PaletteColor;
-    control: PaletteColor;
-  }
-  interface PaletteOptions {
-    unselected?: SimplePaletteColorOptions;
-    met?: SimplePaletteColorOptions;
-    unmet?: SimplePaletteColorOptions;
-    needs?: SimplePaletteColorOptions;
-    control?: SimplePaletteColorOptions;
-  }
-}
-
 const palette: PaletteOptions = {
   mode: "dark",
   unselected: {
     main: grey[400],
     heading: grey[400],
     dark: "#1A202C",
+  },
+  selected: {
+    main: "#FFFFFF",
   },
   met: {
     main: "green",

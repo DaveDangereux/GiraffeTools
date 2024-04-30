@@ -43,12 +43,13 @@ const MuiButton: Components["MuiButton"] = {
     {
       props: { variant: "wordButton", color: "unselected" },
       style: {
-        color: palette.unselected.heading,
+        color: palette.unselected.main,
       },
     },
     {
       props: { variant: "wordButton", color: "met" },
       style: {
+        color: palette.selected.main,
         outlineStyle: "solid",
         outlineWidth: "3px",
         outlineColor: palette.met.highlight,
@@ -57,6 +58,7 @@ const MuiButton: Components["MuiButton"] = {
     {
       props: { variant: "wordButton", color: "unmet" },
       style: {
+        color: palette.selected.main,
         outlineStyle: "solid",
         outlineWidth: "3px",
         outlineColor: palette.unmet.highlight,
