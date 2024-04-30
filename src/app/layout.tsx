@@ -1,12 +1,6 @@
-import "@fontsource/roboto-mono/400.css";
-import "@fontsource/roboto-mono/600.css";
-import "@fontsource/caveat/700.css";
+import { CssBaseline } from "@mui/material";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
-import { Inter } from "next/font/google";
-
-const inter = Inter({
-  subsets: ["latin"],
-});
+import { ThemeModeContextProvider } from "../context/ThemeModeContext";
 
 export const metadata = {
   title: "Giraffe Tools",
@@ -22,8 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
+      <body>
+        <AppRouterCacheProvider>
+          <CssBaseline />
+          <ThemeModeContextProvider>{children}</ThemeModeContextProvider>
+        </AppRouterCacheProvider>
       </body>
     </html>
   );
