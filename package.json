@@ -17,6 +17,7 @@
     "@emotion/styled": "^11.11.5",
     "@fontsource/caveat": "^5.0.18",
     "@fontsource/roboto-mono": "^5.0.18",
+    "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.15.15",
     "@mui/material-nextjs": "^5.15.11",
     "@mui/utils": "^5.15.14",

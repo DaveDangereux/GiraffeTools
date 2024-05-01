@@ -68,6 +68,7 @@ const MuiButton: Components["MuiButton"] = {
         border: "2px solid",
         borderRadius: "15px",
         borderColor: palette.control.border,
+        color: palette.control.contrastText,
         fontWeight: "600",
         "&:hover": {
           backgroundColor: palette.control.bg,

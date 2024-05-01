@@ -3,6 +3,10 @@ import { grey } from "@mui/material/colors";
 
 const palette: PaletteOptions = {
   mode: "dark",
+  background: {
+    default: "#000000",
+    paper: "#000000",
+  },
   unselected: {
     main: grey[400],
     heading: grey[400],
@@ -35,6 +39,7 @@ const palette: PaletteOptions = {
     bg: "#1A365D",
   },
   control: {
+    contrastText: "#FFFFFF",
     bg: "#5F370E",
     border: "#D69E2E",
     main: "yellow",
