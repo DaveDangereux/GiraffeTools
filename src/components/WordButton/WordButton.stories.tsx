@@ -1,8 +1,8 @@
+import WordButtonComponent from "@/components/WordButton";
+import { themes } from "@/themes";
 import { Box } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import type { Meta, StoryObj } from "@storybook/react";
-import themes from "../../themes";
-import WordButtonComponent from "./WordButton";
 
 export default {
   title: "Giraffe Tools/Atoms/Word Button",

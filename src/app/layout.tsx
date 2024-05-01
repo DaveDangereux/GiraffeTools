@@ -1,6 +1,6 @@
+import { ThemeModeContextProvider } from "@/context/ThemeModeContext";
 import { CssBaseline } from "@mui/material";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
-import { ThemeModeContextProvider } from "../context/ThemeModeContext";
 
 export const metadata = {
   title: "Giraffe Tools",

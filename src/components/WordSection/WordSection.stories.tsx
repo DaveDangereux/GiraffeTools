@@ -1,13 +1,9 @@
 import { Box } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import type { Meta, StoryObj } from "@storybook/react";
-import themes from "../../themes";
-import type {
-  SetButtonStatusFunction,
-  View,
-  WordButtonData,
-} from "../../types";
-import WordSectionComponent from "./WordSection";
+import { themes } from "@/themes";
+import type { SetButtonStatusFunction, View, WordButtonData } from "@/types";
+import WordSectionComponent from "@/components/WordSection";
 
 export default {
   title: "Giraffe Tools/Organisms/Word Section",

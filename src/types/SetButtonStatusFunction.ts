@@ -1,4 +1,4 @@
-import type { Mode } from "./";
+import type { Mode } from "@/types";
 
 export type SetButtonStatusFunction = ({
   sectionIndex,

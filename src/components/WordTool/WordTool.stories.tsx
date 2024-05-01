@@ -1,6 +1,6 @@
 import WordToolComponent from "@/components/WordTool";
 import { ThemeModeContextProvider, useThemeModeContext } from "@/context";
-import themes from "@/themes";
+import { themes } from "@/themes";
 import { ThemeProvider } from "@mui/material/styles";
 import type { Meta, StoryObj } from "@storybook/react";
 

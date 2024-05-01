@@ -1,4 +1,4 @@
-import type { CardData, Mode } from "./";
+import type { CardData, Mode } from "@/types";
 
 export type ToolData = {
   sectionData: {

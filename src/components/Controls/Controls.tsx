@@ -1,7 +1,8 @@
-import { Box, Button } from "@mui/material";
-import LightModeOutlined from "@mui/icons-material/LightModeOutlined";
+import { useThemeModeContext } from "@/context/ThemeModeContext";
 import DarkModeOutlined from "@mui/icons-material/DarkModeOutlined";
-import { useThemeModeContext } from "../../context/ThemeModeContext";
+import LightModeOutlined from "@mui/icons-material/LightModeOutlined";
+import { Box, Button } from "@mui/material";
+
 interface Props {
   view: string;
   cycleView: () => void;

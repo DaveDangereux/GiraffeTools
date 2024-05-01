@@ -1,7 +1,7 @@
+import WordButton from "@/components/WordButton";
+import type { Mode, SetButtonStatusFunction, View } from "@/types";
+import { shouldButtonRender } from "@/utils";
 import { Box, Paper, Typography } from "@mui/material";
-import type { Mode, SetButtonStatusFunction, View } from "../../types";
-import WordButton from "../WordButton";
-import { shouldButtonRender } from "../../utils";
 
 interface Props {
   sectionType: string;
