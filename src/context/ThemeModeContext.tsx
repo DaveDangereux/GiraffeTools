@@ -2,7 +2,7 @@
 
 import type { ReactNode } from "react";
 import { useState } from "react";
-import { createSafeContext } from "./createSafeContext";
+import { createSafeContext } from "@/context/createSafeContext";
 
 type ThemeModeContextValue = {
   darkMode: boolean;

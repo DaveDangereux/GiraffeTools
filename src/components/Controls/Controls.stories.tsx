@@ -1,8 +1,8 @@
-import type { Meta, StoryObj } from "@storybook/react";
-import ControlsComponent from "./Controls";
+import ControlsComponent from "@/components/Controls";
+import { ThemeModeContextProvider } from "@/context";
+import { themes } from "@/themes";
 import { ThemeProvider } from "@mui/material/styles";
-import { ThemeModeContextProvider } from "../../context";
-import themes from "../../themes";
+import type { Meta, StoryObj } from "@storybook/react";
 
 export default {
   title: "Giraffe Tools/Molecules/Controls",

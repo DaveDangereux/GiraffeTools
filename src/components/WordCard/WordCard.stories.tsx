@@ -1,9 +1,9 @@
+import WordCardComponent from "@/components/WordCard";
+import { themes } from "@/themes";
+import type { Mode, SetButtonStatusFunction, View } from "@/types";
 import { Box } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import type { Meta, StoryObj } from "@storybook/react";
-import themes from "../../themes";
-import type { Mode, SetButtonStatusFunction, View } from "../../types";
-import WordCardComponent from "./WordCard";
 
 export default {
   title: "Giraffe Tools/Molecules/Word Card",

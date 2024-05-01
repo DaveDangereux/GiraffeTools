@@ -1,11 +1,6 @@
-import type {
-  CardData,
-  Mode,
-  SetButtonStatusFunction,
-  View,
-} from "../../types";
-import WordCard from "../WordCard";
-import { shouldButtonRender } from "../../utils";
+import WordCard from "@/components/WordCard";
+import type { CardData, Mode, SetButtonStatusFunction, View } from "@/types";
+import { shouldButtonRender } from "@/utils";
 import { Box, Typography } from "@mui/material";
 
 interface Props {

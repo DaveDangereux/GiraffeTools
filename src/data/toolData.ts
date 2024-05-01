@@ -1,5 +1,5 @@
-import type { CardData, Mode } from "../types";
-import rawData from "./words.json";
+import type { CardData, Mode } from "@/types";
+import rawData from "@/data/words.json";
 
 type RawCardData = { cardDisplayName: string; words: string[] }[];
 

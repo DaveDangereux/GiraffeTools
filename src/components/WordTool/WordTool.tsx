@@ -1,16 +1,16 @@
-import WordSection from "../WordSection";
-import Controls from "../Controls";
-import toolData from "../../data/toolData";
-import { useState, useCallback } from "react";
+import Controls from "@/components/Controls";
+import WordSection from "@/components/WordSection";
+import toolData from "@/data/toolData";
+import { shouldButtonRender } from "@/utils";
+import { Box, Paper } from "@mui/material";
+import { useCallback, useState } from "react";
 import type {
   Mode,
   SectionData,
   SetButtonStatusFunction,
   ToolData,
   View,
-} from "../../types";
-import { shouldButtonRender } from "../../utils";
-import { Box, Paper } from "@mui/material";
+} from "@/types";
 
 const WordTool = () => {
   const [data, setData] = useState(toolData as ToolData);

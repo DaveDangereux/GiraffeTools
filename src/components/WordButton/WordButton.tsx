@@ -1,6 +1,6 @@
+import type { Mode, SetButtonStatusFunction, View } from "@/types";
 import { Button } from "@mui/material";
 import { memo, useEffect, useState } from "react";
-import type { Mode, SetButtonStatusFunction, View } from "../../types";
 
 interface Props {
   sectionIndex?: number;

@@ -1,8 +1,8 @@
 "use client";
 
+import { useThemeModeContext } from "@/context/ThemeModeContext";
+import { themes } from "@/themes";
 import { ThemeProvider } from "@mui/material/styles";
-import { useThemeModeContext } from "../context/ThemeModeContext";
-import themes from "../themes";
 
 export default function Home() {
   const { darkMode } = useThemeModeContext();
