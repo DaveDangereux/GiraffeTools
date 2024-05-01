@@ -64,6 +64,7 @@ export const Light: Story = {
 };
 
 export const Dark: Story = {
+  parameters: { backgrounds: { default: "dark" } },
   render: () => {
     return (
       <ThemeProvider theme={themes.darkTheme}>

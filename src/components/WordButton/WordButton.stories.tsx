@@ -21,7 +21,6 @@ export const Light: Story = {
               display: "flex",
               gap: "10px",
               padding: "10px",
-              backgroundColor: "lightgray",
             }}
           >
             <WordButtonComponent
@@ -50,6 +49,7 @@ export const Light: Story = {
 };
 
 export const Dark: Story = {
+  parameters: { backgrounds: { default: "dark" } },
   render: () => {
     return (
       <>
@@ -59,7 +59,6 @@ export const Dark: Story = {
               display: "flex",
               gap: "10px",
               padding: "10px",
-              backgroundColor: "lightgray",
             }}
           >
             <WordButtonComponent
