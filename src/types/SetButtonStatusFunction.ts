@@ -1,3 +1,5 @@
+import type { Mode } from "./";
+
 export type SetButtonStatusFunction = ({
   sectionIndex,
   cardIndex,
@@ -7,5 +9,5 @@ export type SetButtonStatusFunction = ({
   sectionIndex: number;
   cardIndex: number;
   wordButtonIndex: number;
-  newMode: string;
+  newMode: Mode;
 }) => void;

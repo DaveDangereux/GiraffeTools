@@ -67,6 +67,7 @@ const palette: PaletteOptions = {
     headingBg: "#3182CE",
   },
   control: {
+    contrastText: "#000000",
     bg: "#FEFCBF",
     border: "#ECC94B",
     main: "yellow",

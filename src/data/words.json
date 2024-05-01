@@ -1,0 +1,452 @@
+{
+  "feelings": {
+    "metNeeds": [
+      {
+        "cardDisplayName": "Affectionate",
+        "words": [
+          "compassionate",
+          "friendly",
+          "loving",
+          "open hearted",
+          "sympathetic",
+          "tender",
+          "warm"
+        ]
+      },
+      {
+        "cardDisplayName": "Engaged",
+        "words": [
+          "absorbed",
+          "alert",
+          "curious",
+          "engrossed",
+          "enchanted",
+          "entranced",
+          "fascinated",
+          "interested",
+          "intrigued",
+          "involved",
+          "spellbound",
+          "stimulated"
+        ]
+      },
+      {
+        "cardDisplayName": "Confident",
+        "words": ["empowered", "open", "proud", "safe", "secure"]
+      },
+      {
+        "cardDisplayName": "Excited",
+        "words": [
+          "amazed",
+          "animated",
+          "ardent",
+          "aroused",
+          "astonished",
+          "dazzled",
+          "eager",
+          "energetic",
+          "enthusiastic",
+          "giddy",
+          "invigorated",
+          "lively",
+          "passionate",
+          "surprised",
+          "vibrant"
+        ]
+      },
+      {
+        "cardDisplayName": "Grateful",
+        "words": [
+          "appreciative",
+          "moved",
+          "thankful",
+          "touched",
+          "inspired",
+          "amazed",
+          "awed",
+          "wonder"
+        ]
+      },
+      {
+        "cardDisplayName": "Joyful",
+        "words": [
+          "amused",
+          "delighted",
+          "glad",
+          "happy",
+          "jubilant",
+          "pleased",
+          "tickled"
+        ]
+      },
+      {
+        "cardDisplayName": "Exhilarated",
+        "words": [
+          "blissful",
+          "ecstatic",
+          "elated",
+          "enthralled",
+          "exuberant",
+          "radiant",
+          "rapturous",
+          "thrilled"
+        ]
+      },
+      {
+        "cardDisplayName": "Peaceful",
+        "words": [
+          "calm",
+          "clear headed",
+          "comfortable",
+          "centered",
+          "content",
+          "equanimous",
+          "fulfilled",
+          "mellow",
+          "quiet",
+          "relaxed",
+          "relieved",
+          "satisfied",
+          "serene",
+          "still",
+          "tranquil",
+          "trusting"
+        ]
+      },
+      {
+        "cardDisplayName": "Hopeful",
+        "words": ["expectant", "encouraged", "optimistic"]
+      },
+      {
+        "cardDisplayName": "Refreshed",
+        "words": [
+          "enlivened",
+          "rejuvenated",
+          "renewed",
+          "rested",
+          "restored",
+          "revived"
+        ]
+      }
+    ],
+    "unmetNeeds": [
+      {
+        "cardDisplayName": "Afraid",
+        "words": [
+          "apprehensive",
+          "dread",
+          "foreboding",
+          "frightened",
+          "mistrustful",
+          "panicked",
+          "petrified",
+          "scared",
+          "suspicious",
+          "terrified",
+          "wary",
+          "worried"
+        ]
+      },
+      {
+        "cardDisplayName": "Annoyed",
+        "words": [
+          "aggravated",
+          "dismayed",
+          "disgruntled",
+          "displeased",
+          "exasperated",
+          "frustrated",
+          "impatient",
+          "irritated",
+          "irked"
+        ]
+      },
+      {
+        "cardDisplayName": "Angry",
+        "words": [
+          "enraged",
+          "furious",
+          "incensed",
+          "indignant",
+          "irate",
+          "livid",
+          "outraged",
+          "resentful"
+        ]
+      },
+      {
+        "cardDisplayName": "Aversion",
+        "words": [
+          "animosity",
+          "appalled",
+          "contempt",
+          "disgusted",
+          "dislike",
+          "hate",
+          "horrified",
+          "hostile",
+          "repulsed"
+        ]
+      },
+      {
+        "cardDisplayName": "Confused",
+        "words": [
+          "ambivalent",
+          "baffled",
+          "bewildered",
+          "dazed",
+          "hesitant",
+          "lost",
+          "mystified",
+          "perplexed",
+          "puzzled",
+          "torn"
+        ]
+      },
+      {
+        "cardDisplayName": "Disconnected",
+        "words": [
+          "alienated",
+          "aloof",
+          "apathetic",
+          "bored",
+          "cold",
+          "detached",
+          "distant",
+          "distracted",
+          "indifferent",
+          "numb",
+          "removed",
+          "uninterested",
+          "withdrawn"
+        ]
+      },
+      {
+        "cardDisplayName": "Disquiet",
+        "words": [
+          "agitated",
+          "alarmed",
+          "discombobulated",
+          "disconcerted",
+          "disturbed",
+          "perturbed",
+          "rattled",
+          "shocked",
+          "restless",
+          "startled",
+          "surprised",
+          "troubled",
+          "turbulent",
+          "turmoil",
+          "uncomfortable",
+          "uneasy",
+          "unnerved",
+          "unsettled",
+          "upset"
+        ]
+      },
+      {
+        "cardDisplayName": "Embarassed",
+        "words": [
+          "ashamed",
+          "chagrined",
+          "flustered",
+          "guilty",
+          "mortified",
+          "self-conscious"
+        ]
+      },
+      {
+        "cardDisplayName": "Fatigue",
+        "words": [
+          "beat",
+          "burnt out",
+          "depleted",
+          "exhausted",
+          "lethargic",
+          "listless",
+          "sleepy",
+          "tired",
+          "weary",
+          "worn out"
+        ]
+      },
+      {
+        "cardDisplayName": "Pain",
+        "words": [
+          "agony",
+          "anguished",
+          "bereaved",
+          "devastated",
+          "grief",
+          "heartbroken",
+          "hurt",
+          "lonely",
+          "miserable",
+          "regretful",
+          "remorseful"
+        ]
+      },
+      {
+        "cardDisplayName": "Sad",
+        "words": [
+          "depressed",
+          "dejected",
+          "despair",
+          "despondent",
+          "disappointed",
+          "discouraged",
+          "disheartened",
+          "forlorn",
+          "gloomy",
+          "heavy hearted",
+          "hopeless",
+          "melancholy",
+          "unhappy",
+          "wretched"
+        ]
+      },
+      {
+        "cardDisplayName": "Tense",
+        "words": [
+          "anxious",
+          "cranky",
+          "distressed",
+          "distraught",
+          "edgy",
+          "fidgety",
+          "frazzled",
+          "irritable",
+          "jittery",
+          "nervous",
+          "overwhelmed",
+          "restless",
+          "stressed out"
+        ]
+      },
+      {
+        "cardDisplayName": "Vulnerable",
+        "words": [
+          "fragile",
+          "guarded",
+          "helpless",
+          "insecure",
+          "leery",
+          "reserved",
+          "sensitive",
+          "shaky"
+        ]
+      },
+      {
+        "cardDisplayName": "Yearning",
+        "words": [
+          "envious",
+          "jealous",
+          "longing",
+          "nostalgic",
+          "pining",
+          "wistful"
+        ]
+      }
+    ]
+  },
+  "needs": [
+    {
+      "cardDisplayName": "Connection",
+      "words": [
+        "acceptance",
+        "affection",
+        "appreciation",
+        "belonging",
+        "cooperation",
+        "communication",
+        "closeness",
+        "community",
+        "companionship",
+        "compassion",
+        "consideration",
+        "consistency",
+        "empathy",
+        "inclusion",
+        "intimacy",
+        "love",
+        "mutuality",
+        "nurturing",
+        "respect / self-respect",
+        "safety",
+        "security",
+        "stability",
+        "support",
+        "to know and be known",
+        "to see and be seen",
+        "to understand and be understood",
+        "trust",
+        "warmth"
+      ]
+    },
+    {
+      "cardDisplayName": "Physical Well-Being",
+      "words": [
+        "air",
+        "food",
+        "movement / exercise",
+        "rest / sleep",
+        "sexual expression",
+        "safety",
+        "shelter",
+        "touch",
+        "water"
+      ]
+    },
+    {
+      "cardDisplayName": "Honesty",
+      "words": ["authenticity", "integrity", "presence"]
+    },
+    {
+      "cardDisplayName": "Play",
+      "words": ["joy", "humour"]
+    },
+    {
+      "cardDisplayName": "Peace",
+      "words": [
+        "beauty",
+        "communion",
+        "ease",
+        "equality",
+        "harmony",
+        "inspiration",
+        "order"
+      ]
+    },
+    {
+      "cardDisplayName": "Autonomy",
+      "words": ["choice", "freedom", "independence", "space", "spontaneity"]
+    },
+    {
+      "cardDisplayName": "Meaning",
+      "words": [
+        "awareness",
+        "celebration of life",
+        "challenge",
+        "clarity",
+        "competence",
+        "contribution",
+        "consciousness",
+        "creativity",
+        "discovery",
+        "efficacy",
+        "effectiveness",
+        "growth",
+        "hope",
+        "learning",
+        "mourning",
+        "participation",
+        "purpose",
+        "self-expression",
+        "stimulation",
+        "to matter",
+        "understanding"
+      ]
+    }
+  ]
+}

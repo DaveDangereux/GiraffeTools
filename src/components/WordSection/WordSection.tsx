@@ -5,7 +5,7 @@ import type {
   View,
 } from "../../types";
 import WordCard from "../WordCard";
-import shouldButtonRender from "../WordCard/shouldButtonRender";
+import { shouldButtonRender } from "../../utils";
 import { Box, Typography } from "@mui/material";
 
 interface Props {

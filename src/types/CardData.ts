@@ -1,4 +1,4 @@
-import type { WordButtonData } from "./WordButtonData";
+import type { WordButtonData } from "./";
 
 export type CardData = {
   cardDisplayName: string;

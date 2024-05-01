@@ -2,7 +2,7 @@
 
 import React from "react";
 
-const createSafeContext = <DefaultValueType,>() => {
+export const createSafeContext = <DefaultValueType,>() => {
   const context = React.createContext<DefaultValueType | undefined>(undefined);
 
   const useSafeContext = () => {
@@ -15,5 +15,3 @@ const createSafeContext = <DefaultValueType,>() => {
 
   return [useSafeContext, context.Provider] as const;
 };
-
-export default createSafeContext;

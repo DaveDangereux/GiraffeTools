@@ -1,4 +1,4 @@
-import type { Mode } from "./Mode";
+import type { Mode } from "./";
 
 export type WordButtonData = {
   word: string;
