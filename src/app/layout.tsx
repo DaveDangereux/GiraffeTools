@@ -1,3 +1,4 @@
+import { caveat, robotoMono } from "@/fonts";
 import { ThemeModeContextProvider } from "@/context/ThemeModeContext";
 import { CssBaseline } from "@mui/material";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
@@ -15,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${caveat.className} ${robotoMono.className}`}>
       <body>
         <AppRouterCacheProvider>
           <CssBaseline />

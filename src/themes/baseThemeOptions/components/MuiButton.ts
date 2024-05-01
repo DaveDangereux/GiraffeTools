@@ -1,5 +1,5 @@
 import paletteOptions from "@/themes/baseThemeOptions/palette";
-import { robotoMono } from "@/themes/fonts";
+import { robotoMono } from "@/fonts";
 import type { Components } from "@mui/material/styles";
 import createPalette from "@mui/material/styles/createPalette";
 

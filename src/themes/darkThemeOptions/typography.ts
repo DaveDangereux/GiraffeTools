@@ -1,5 +1,5 @@
 import type { TypographyOptions } from "@mui/material/styles/createTypography";
-import { caveat } from "@/themes/fonts";
+import { caveat } from "@/fonts";
 
 declare module "@mui/material/styles" {
   interface TypographyVariants {

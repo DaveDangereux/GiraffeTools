@@ -1,7 +1,7 @@
 import type { Components } from "@mui/material/styles";
 import createPalette from "@mui/material/styles/createPalette";
 import paletteOptions from "@/themes/darkThemeOptions/palette";
-import { robotoMono } from "@/themes/fonts";
+import { robotoMono } from "@/fonts";
 
 const palette = createPalette(paletteOptions);
 
