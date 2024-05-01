@@ -1,3 +1,5 @@
+"use client";
+
 import { useThemeModeContext } from "@/context/ThemeModeContext";
 import DarkModeOutlined from "@mui/icons-material/DarkModeOutlined";
 import LightModeOutlined from "@mui/icons-material/LightModeOutlined";
