@@ -11,6 +11,11 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+    options: {
+      storySort: {
+        order: ["Giraffe Tools", ["Pages", "Organisms", "Molecules", "Atoms"]],
+      },
+    },
   },
 };
 
