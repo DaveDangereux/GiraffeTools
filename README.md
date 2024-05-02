@@ -9,7 +9,6 @@ A live online version can be found [here](https://www.dave-jordan.dev).
 ![Light Mode](https://github.com/DaveDangereux/GiraffeTools/assets/61416292/6daeca78-3eb8-4a3a-b864-479d089adb8a)
 ![Dark Mode](https://github.com/DaveDangereux/GiraffeTools/assets/61416292/1b72fd61-9a83-40f6-a311-59975bd138d3)
 ![Feelings - Met Needs](https://github.com/DaveDangereux/GiraffeTools/assets/61416292/69563ee9-c8f4-46b1-a443-d80393167b89)
-![Feelings - Unmet Needs](https://github.com/DaveDangereux/GiraffeTools/assets/61416292/383074c2-cb2e-40b6-aed6-cc37c059b458)
 
 *Screenshots of mobile view demonstrating light and dark themes and word filtering.*
 
