@@ -142,7 +142,7 @@ yarn run dev
 ```
 
 The default address for accessing the development server and viewing the project
-is http://localhost:3000.
+is http://localhost:3000/.
 
 
 ## Using Storybook
@@ -157,7 +157,7 @@ Storybook server with:
 pnpm run storybook
 ```
 
-The default address for accessing the server is https://localhost:6006/.
+The default address for accessing the server is http://localhost:6006/.
 
 
 ## Author
