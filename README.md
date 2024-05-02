@@ -1,14 +1,23 @@
 # Giraffe Tools - Building Emotional Literacy
 
 A simple tool for selecting and collating words to describe immediate felt
-experience in compassionate ways. A live online version can be found
-[here](dave-jordan.dev).
+experience in compassionate ways.
+
+A live online version can be found [here](https://www.dave-jordan.dev).
+
+## Screenshots
+![Light Mode](https://github.com/DaveDangereux/GiraffeTools/assets/61416292/6daeca78-3eb8-4a3a-b864-479d089adb8a)
+![Dark Mode](https://github.com/DaveDangereux/GiraffeTools/assets/61416292/1b72fd61-9a83-40f6-a311-59975bd138d3)
+![Feelings - Met Needs](https://github.com/DaveDangereux/GiraffeTools/assets/61416292/69563ee9-c8f4-46b1-a443-d80393167b89)
+![Feelings - Unmet Needs](https://github.com/DaveDangereux/GiraffeTools/assets/61416292/383074c2-cb2e-40b6-aed6-cc37c059b458)
+
+*Screenshots of mobile view demonstrating light and dark themes and word filtering.*
 
 ## Why a Literacy Tool?
 
-This is a tool inspired by Nonviolent Communication, a communication model and
+This project was inspired by Nonviolent Communication, a communication model and
 body of teachings that aims to promote a compassionate quality of relationship
-between people, therefore increasing the likelihood that the user's needs (and
+between people, therefore increasing the likelihood that a user's needs (and
 the needs of others) will be met.
 
 For an excellent high-level overview of the Nonviolent Communication Model, see
@@ -90,15 +99,15 @@ being, or even generally to oneself.
 The intended usage is to scan through the list and select words that describe
 your experience. Although the lists may seem lengthy, it may be surprising how
 quick the process can be when the intention is to describe *immediate*
-experience, with users often describing the words as standing out, feeling right
-or being obvious when suggested.
+experience, with users often describing the words as 'standing out', 'feeling 
+right' or otherwise being obvious when suggested.
 
-Feelings can be toggled on or off and needs can be toggled through
-off, met (green) and unmet (red) states.
+Feelings can be toggled `on` or `off` and Needs can be toggled through
+`off`, `met` (green) and `unmet` (red) states.
 
 Once words have been selected, the view can be changed to display only
-**selected** words, words describing **met** needs and words describing
-**unmet** needs. The selection can also be reset and a dark mode is included for
+`selected` words, words describing `met` needs and words describing
+`unmet` needs. The selection can also be `reset` and a dark mode is included for
 late-night empathic introspection.
 
 
