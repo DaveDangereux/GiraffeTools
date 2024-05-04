@@ -118,7 +118,7 @@ using [pnpm](https://pnpm.io/), [npm](https://www.npmjs.com/) or
 recommended tool to use.
 
 Alternatively, as previously mentioned, a live preview can be found
-[here](dave-jordan.dev).
+[here](https://www.dave-jordan.dev).
 
 ### Using pnpm
 
