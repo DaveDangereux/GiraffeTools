@@ -44,14 +44,19 @@ differentiates them from words that imply evaluation of somebody else's
 intentions.
 
 #### Examples of Feelings:
-```
-appreciative, perplexed, nervous, wistful, encouraged
-```
+ - appreciative
+ - perplexed
+ - nervous
+ - wistful
+ - encouraged
+
 
 #### Examples of pseudo-feelings (implying evaluation of intent):
-```
-ignored, judged, deceived, betrayed, disrespected
-```
+- ignored
+- judged
+- deceived
+- betrayed
+- disrespected
 
 NVC suggests that using language that can be readily perceived as implying
 judgement of the person you are communicating with can interfere with their
@@ -66,10 +71,11 @@ needs. As Needs are common to all humans, they are likely to be easier to
 empathise with than Strategies.
 
 #### Examples of Needs:
-
-```
-acceptance, rest, security, joy, growth
-```
+ - acceptance
+ - rest
+ - security
+ - joy
+ - growth
 
 The range of possible strategies is vast, but by way of example you might think
 of a sandwich as a way to meet the need for nourishment. Nobody *needs* a
@@ -143,6 +149,7 @@ yarn run dev
 
 The default address for accessing the development server and viewing the project
 is http://localhost:3000/.
+<!--TODO add how this can be changed-->
 
 
 ## Using Storybook
@@ -158,6 +165,7 @@ pnpm run storybook
 ```
 
 The default address for accessing the server is http://localhost:6006/.
+<!--TODO add how this can be changed-->
 
 
 ## Author
